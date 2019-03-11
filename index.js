@@ -8,12 +8,12 @@ function happyHolidaysTo (name) {
   //console.log(`Happy holidays, ${Annia} !`)
 }
 
-function happyHolidayTo () {
+function happyHolidayTo (name) {
   return (`Happy ${holiday}, ${name}!`)
   //console.log('Happy ${thanksgiving}, ${Camden} !`)
 }
 
-function holidayCountdown () {
+function holidayCountdown (days, holiday) {
   return(`It's ${days} until ${holiday}`)
   //console.log(`It's ${'5'} days until ${Christmas}!`)
 }
