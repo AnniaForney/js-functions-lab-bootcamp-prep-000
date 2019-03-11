@@ -13,7 +13,7 @@ function happyHolidayTo (holiday, name) {
   //console.log('Happy ${thanksgiving}, ${Camden} !`)
 }
 
-function holidayCountdown (holiday,days) {
+function holidayCountdown (holiday, days) {
   return(`It's ${days} until ${holiday} !`)
   //console.log(`It's ${'5'} days until ${Christmas}!`)
 }
