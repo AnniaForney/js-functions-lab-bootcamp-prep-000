@@ -1,13 +1,19 @@
-// Write code below 
-describe('happyHolidays'string, function()) => {
-  
-})
-describe('happyHolidaysTo'string, function()) => {
+Write code below 
+function happyHolidays() { 
+  return('Happy holidays!') 
+}
 
-})
-describe('happyHolidayTo' string, function()) => {
-  return.string ('Happy holidays, ${Annia}!`')
-})
-describe('holidayCountdown'string, function()) => {
-  
-})
+function happyHolidaysTo () {
+  return ('Happy holidays, ${name}!')
+  console.log('Happy holidays, ${Annia} !')
+}
+
+function happyHolidayTo () {
+  return ('Happy ${holiday}, ${name}!')
+  console.log('Happy ${thanksgiving}, ${Camden}!')
+}
+
+function holidayCountdown () {
+  return('It's '${days} until ${holiday}')
+  console.log('It's '${5} days until ${Christmas}!')
+}
